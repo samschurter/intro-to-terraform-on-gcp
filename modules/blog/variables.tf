@@ -1,6 +1,5 @@
 variable "project_id" {
   type       = string
-  default    = "li-terraform"
   description = "The project ID"
 }
 
@@ -12,7 +11,6 @@ variable "region" {
 
 variable "network_name" {
   type       = string
-  default    = "app"
   description = "The network name"
 }
 
@@ -42,6 +40,5 @@ variable "machine_type" {
 
 variable "app_name" {
   type       = string
-  default    = "blog"
   description = "The application name"
 }
